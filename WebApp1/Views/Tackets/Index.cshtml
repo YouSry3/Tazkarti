@@ -1,0 +1,29 @@
+﻿@model List<Tacket>
+
+    <h2>Tackets Pages </h2>
+<h1 class="text-danger">@ViewBag.Count</h1>
+
+@if (User.IsInRole(nameof(Role.Admin)))
+{
+<a  asp-controller="Tackets" asp-action="Create" class="btn btn-success">Add Tacket</a>
+    
+}
+<div asp-validation-summary="All" class="text-danger"></div>
+
+
+@foreach(var item in Model){
+<div class="card" style="width: 18rem;">
+            <img src="@item.Url" class="card-img-top" alt="...">
+            <div class="card-body">
+                    <h5 class="card-title">@item.NameTacket</h5>
+                    <p class="card-text"> @item.Description . </p>
+                    <h3 class="text-danger">@item.Price $</h3>
+    <form action="/Tackets/AddToCart" method="post">
+                    <input type="hidden" name="Id" value="@item.Id" />
+                    <button class="btn btn-success" type="submit">Add to Cart</button>
+   </form>
+            </div>
+
+        </div>
+
+}

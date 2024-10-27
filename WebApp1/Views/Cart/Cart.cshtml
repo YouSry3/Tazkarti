@@ -1,0 +1,36 @@
+﻿@model IEnumerable<DetailsTaskUser>
+
+<h2>Your Cart</h2>
+
+@if (Model.Any())
+{
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.NameTacket</td>
+                    <td>@item.Price</td>
+                    <td>1</td> <!-- يمكنك إضافة حقل كمية إذا كان ضروريًا -->
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <p><strong>Total Amount:</strong> @ViewBag.TotalAmount</p>
+
+    <form asp-action="Checkout" method="post">
+        <button type="submit" class="btn btn-primary">Checkout</button>
+    </form>
+}
+else
+{
+    <p>Your cart is empty.</p>
+}

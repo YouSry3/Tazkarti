@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\Downloads\\WebApp1\\WebApp1\\WebApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E202FF4-F18F-4159-AB21-F8FDDA1DD068}|WebApp1\\WebApp1.csproj|c:\\users\\lenovo\\downloads\\webapp1\\webapp1\\webapp1\\webapp1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E202FF4-F18F-4159-AB21-F8FDDA1DD068}|WebApp1\\WebApp1.csproj|solutionrelative:webapp1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E202FF4-F18F-4159-AB21-F8FDDA1DD068}|WebApp1\\WebApp1.csproj|c:\\users\\lenovo\\downloads\\webapp1\\webapp1\\webapp1\\webapp1\\controllers\\tacketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E202FF4-F18F-4159-AB21-F8FDDA1DD068}|WebApp1\\WebApp1.csproj|solutionrelative:webapp1\\controllers\\tacketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E202FF4-F18F-4159-AB21-F8FDDA1DD068}|WebApp1\\WebApp1.csproj|c:\\users\\lenovo\\downloads\\webapp1\\webapp1\\webapp1\\webapp1\\views\\cart\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E202FF4-F18F-4159-AB21-F8FDDA1DD068}|WebApp1\\WebApp1.csproj|solutionrelative:webapp1\\views\\cart\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E202FF4-F18F-4159-AB21-F8FDDA1DD068}|WebApp1\\WebApp1.csproj|c:\\users\\lenovo\\downloads\\webapp1\\webapp1\\webapp1\\webapp1\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E202FF4-F18F-4159-AB21-F8FDDA1DD068}|WebApp1\\WebApp1.csproj|solutionrelative:webapp1\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E202FF4-F18F-4159-AB21-F8FDDA1DD068}|WebApp1\\WebApp1.csproj|c:\\users\\lenovo\\downloads\\webapp1\\webapp1\\webapp1\\webapp1\\views\\tackets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E202FF4-F18F-4159-AB21-F8FDDA1DD068}|WebApp1\\WebApp1.csproj|solutionrelative:webapp1\\views\\tackets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E202FF4-F18F-4159-AB21-F8FDDA1DD068}|WebApp1\\WebApp1.csproj|c:\\users\\lenovo\\downloads\\webapp1\\webapp1\\webapp1\\webapp1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E202FF4-F18F-4159-AB21-F8FDDA1DD068}|WebApp1\\WebApp1.csproj|solutionrelative:webapp1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Downloads\\WebApp1\\WebApp1\\WebApp1\\WebApp1\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "WebApp1\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Downloads\\WebApp1\\WebApp1\\WebApp1\\WebApp1\\Controllers\\CartController.cs",
+              "RelativeToolTip": "WebApp1\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T21:24:59.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TacketsController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Downloads\\WebApp1\\WebApp1\\WebApp1\\WebApp1\\Controllers\\TacketsController.cs",
+              "RelativeDocumentMoniker": "WebApp1\\Controllers\\TacketsController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Downloads\\WebApp1\\WebApp1\\WebApp1\\WebApp1\\Controllers\\TacketsController.cs",
+              "RelativeToolTip": "WebApp1\\Controllers\\TacketsController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwDoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:46:18.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Downloads\\WebApp1\\WebApp1\\WebApp1\\WebApp1\\Views\\Cart\\Cart.cshtml",
+              "RelativeDocumentMoniker": "WebApp1\\Views\\Cart\\Cart.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Downloads\\WebApp1\\WebApp1\\WebApp1\\WebApp1\\Views\\Cart\\Cart.cshtml",
+              "RelativeToolTip": "WebApp1\\Views\\Cart\\Cart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-15T15:40:29.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Downloads\\WebApp1\\WebApp1\\WebApp1\\WebApp1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApp1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Downloads\\WebApp1\\WebApp1\\WebApp1\\WebApp1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApp1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-15T15:38:48.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Downloads\\WebApp1\\WebApp1\\WebApp1\\WebApp1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApp1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Downloads\\WebApp1\\WebApp1\\WebApp1\\WebApp1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApp1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAiwGkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-15T15:36:58.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Downloads\\WebApp1\\WebApp1\\WebApp1\\WebApp1\\Views\\Tackets\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApp1\\Views\\Tackets\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Downloads\\WebApp1\\WebApp1\\WebApp1\\WebApp1\\Views\\Tackets\\Index.cshtml",
+              "RelativeToolTip": "WebApp1\\Views\\Tackets\\Index.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-15T15:35:15.618Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

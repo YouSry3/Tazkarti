@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - WebApp1</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/WebApp1.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <style>
+        div.Cart{
+            margin-right: 20px;
+            display:flex;
+            justify-content:center;
+            cursor: pointer;
+        }
+        header nav a.fa-solid{
+            font-size:1.5rem;
+            color: blue;
+            text-decoration: none;
+            margin-top:5px;
+        }
+
+        header nav h2{
+            font-size:1rem;
+            margin-top:7px;
+
+        }
+
+        div.Cart ul {
+            list-style: none;
+            display:flex;
+            margin-right:30px;
+
+        }
+
+        div.Cart ul h1{
+            margin-top:7px;
+            font-size:1rem;
+            color:#000 !important;
+            margin-right: 4px;
+            }
+
+            div.Cart ul li {
+                margin-right:20px;
+            }
+
+        header nav h3{
+            font-size:1rem;
+            margin-top:12px;
+            border-radius:50%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ITI</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                       
+                        <li class="nav-item">
+                            <a class="nav-link text-dark"  asp-controller="Tackets" asp-action="Index">Tackets</a>
+                        </li>
+                      
+                    
+                      
+                    </ul>
+                </div>
+            </div>
+
+
+            <div  class="Cart"  >
+                   
+                <ul>
+                    
+                @if (User.Identity?.IsAuthenticated != true)
+                {
+                    <li class="nav-item">
+                        <a class="nav-link text-dark btn btn-secondary " asp-area="" asp-controller="Account" asp-action="Login">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark btn btn-success" asp-area="" asp-controller="Account" asp-action="Register">Register</a>
+                    </li>
+                }
+                else
+                {
+                     
+                            <h1>@ViewBag.UserEmail</h1>
+                     
+                    <form asp-action="Logout" asp-controller="Account" method="post">
+                        <button type="submit" class="btn btn-danger">Logout</button>
+                    </form>
+                }
+
+                </ul>
+                <a href="/Cart/Cart"
+                   class="fa-solid fa-cart-shopping ">
+                   
+               </a>
+                @if (User.Identity?.IsAuthenticated != true)
+                {
+                    <h2 class="text-danger">(0)</h2>
+
+                }
+                else
+                {
+                    <h2 class="text-danger">(@ViewBag.Count)</h2>
+
+
+                }
+               
+            </div>
+
+            
+
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

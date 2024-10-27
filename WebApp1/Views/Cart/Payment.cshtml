@@ -1,0 +1,13 @@
+﻿<h2>Payment</h2>
+
+<p>Total Amount: @ViewBag.TotalAmount</p>
+
+<form action="https://paymentgateway.com/checkout" method="post">
+    <!-- قم باستبدال URL بوابة الدفع بـ URL الخاص ببوابة الدفع التي ستستخدمها -->
+    <!-- بيانات الدفع -->
+    <input type="hidden" name="amount" value="@ViewBag.TotalAmount" />
+
+    <!-- إضافة تفاصيل بطاقة الدفع أو معلومات أخرى خاصة بالبوابة -->
+
+    <button type="submit" class="btn btn-success">Proceed to Payment</button>
+</form>
